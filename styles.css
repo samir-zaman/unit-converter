@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Inter;
+    src: url("Inter-VariableFont_slnt\,wght.ttf");
+}
+
+body{
+    font-family: Inter;
+    
+}
+
+#appBody{
+    width: 550px;
+    height: 729px;
+    background-color: #F4F4F4;
+    display: block;
+    margin: auto;
+}
+
+#blueHalf{
+    height: 285px;
+    background: #6943FF;
+}
+
+#blueHalf h2{
+    padding-top: 33px; 
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px; /* 135.714% */
+    letter-spacing: -0.84px;
+}
+
+input{
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    margin: auto;
+    color: white;
+    font-size: 58px; 
+    font-weight: 800; 
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#buttonDiv{
+    margin-top: 27px;
+}
+
+button{
+    padding: 9px 27.5px;
+    border-radius: 5px; 
+    border: none;
+    background-color: #FFF;
+    display: block;
+    margin: 0 auto; 
+    font-size: 16px; 
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.resultBox{
+    width: 500px;
+    height: 108.573px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.resultBox h2{
+    color: #5A537B;
+    padding-top: 31px;
+    font-weight: 500; 
+}
+
+.resultBox p{
+    color: #353535
+}
